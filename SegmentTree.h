@@ -57,7 +57,7 @@ template<class T> SegmentTree<T>::SegmentTree(T ar[], int n, T value, T (*combin
     segTreeSize = calculateSize(n) ;
 
     std::vector<T> data ;
-    for(int i = 0; i < n ; ++i) {
+    for(int i = 0 ; i < n ; ++i) {
         data.push_back(ar[i]) ;
     }
 
